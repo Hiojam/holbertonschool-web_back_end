@@ -2,22 +2,21 @@
 """Measure total runtime of async_comprehension"""
 
 import asyncio
-from typing import List
 
 async_comprehension = __import__('1-async_comprehension').async_comprehension
 
 
 async def measure_runtime() -> float:
     """
-    Execute async_comprehension four times in parallel using asyncio.gather.
-
+    Executes async_comprehension four times in parallel using asyncio.gather
+    and measures the total runtime.
+    
     Returns:
-    - float: The total runtime of executing
-         async_comprehension four times in parallel.
+    - float: Total runtime of executing async_comprehension four times in parallel.
     """
-    start_time = asyncio.get_event_loop().time()
+    start_time = asyncio.get_running_loop().time()
 
-    # Run async_comprehension() four times in parallel using asyncio.gather
+    # Execute async_comprehension four times in parallel
     await asyncio.gather(
         async_comprehension(),
         async_comprehension(),
@@ -25,6 +24,6 @@ async def measure_runtime() -> float:
         async_comprehension()
     )
 
-    end_time = asyncio.get_event_loop().time()
+    end_time = asyncio.get_running_loop().time()
 
     return end_time - start_time
