@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-"""Coroutine with async comprehension to collect random numbers"""
+"""
+Coroutine with async comprehension to collect random numbers
+"""
 from typing import List
 
 

@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-"""Asynchronous coroutine that generates random floats"""
+"""
+Asynchronous coroutine that generates random floats
+"""
 import asyncio
 import random
 import typing

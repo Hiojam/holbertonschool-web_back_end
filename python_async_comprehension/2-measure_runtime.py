@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
-"""Measure total runtime of async_comprehension"""
-
+"""
+Measure total runtime of async_comprehension
+"""
 import asyncio
+
 
 async_comprehension = __import__('1-async_comprehension').async_comprehension
 
