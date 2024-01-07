@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-6
+Sum mixed file
 """
 from typing import List, Union
 

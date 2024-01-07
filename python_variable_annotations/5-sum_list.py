@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-5
+Sum list file
 """
 from typing import List
 
