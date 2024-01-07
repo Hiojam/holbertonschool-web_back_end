@@ -12,6 +12,7 @@ def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
     - v (Union[int, float]): An integer or float representing the value.
 
     Returns:
-    - Tuple[str, float]: A tuple containing the original key and the squared value.
+    - Tuple[str, float]:
+         A tuple containing the original key and the squared value.
     """
     return (k, v**2)
