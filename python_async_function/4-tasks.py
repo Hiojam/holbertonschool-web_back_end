@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-"""Asynchronous coroutine for creating multiple tasks"""
+"""
+Asynchronous coroutine for creating multiple tasks
+"""
 from typing import List
 
 

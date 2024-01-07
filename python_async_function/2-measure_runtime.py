@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-"""Measure execution time for asynchronous coroutine wait_n"""
+"""
+Measure execution time for asynchronous coroutine wait_n
+"""
 import asyncio
 import time
 

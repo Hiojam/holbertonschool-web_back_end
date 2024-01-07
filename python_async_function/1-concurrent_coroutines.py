@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-""" Asynchronous coroutine """
+"""
+Asynchronous coroutine
+"""
 from typing import List
 
 
@@ -24,4 +26,3 @@ async def wait_n(n: int, max_delay: int) -> List[float]:
         completed_task_lst.append(await wait_random(max_delay))
 
     return sorted(completed_task_lst)
-

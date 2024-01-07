@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-"""Asynchronous coroutine that generates a random delay"""
+"""
+Asynchronous coroutine that generates a random delay
+"""
 import asyncio
 import random
 

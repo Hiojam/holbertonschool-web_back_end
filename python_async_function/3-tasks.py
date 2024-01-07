@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-""" Asynchronous task creation """
+"""
+Asynchronous task creation
+"""
 import asyncio
 
 
@@ -14,6 +16,7 @@ def task_wait_random(max_delay: int) -> asyncio.Task:
     - max_delay (int): The maximum delay value for wait_random.
 
     Returns:
-    - asyncio.Task: An asynchronous task for wait_random with the specified max_delay.
+    - asyncio.Task: An asynchronous task
+         for wait_random with the specified max_delay.
     """
     return asyncio.create_task(wait_random(max_delay))
