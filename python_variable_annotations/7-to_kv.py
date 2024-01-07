@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-"""7"""
+"""
+7
+"""
 from typing import Tuple, Union
 
 

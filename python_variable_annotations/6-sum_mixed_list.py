@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-"""6"""
+"""
+6
+"""
 from typing import List, Union
 
 
