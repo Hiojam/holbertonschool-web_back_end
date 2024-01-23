@@ -1,1 +1,0 @@
-Holberton School - JS Web Scraping
